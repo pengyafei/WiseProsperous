@@ -1,1 +1,12 @@
 E:\WiseProsperous\WiseProsperous\RZXK.BLL\obj\Debug\RZXK.BLL.csprojResolveAssemblyReference.cache
+E:\WiseProsperous\WiseProsperous\RZXK.BLL\bin\Debug\RZXK.Bll.dll
+E:\WiseProsperous\WiseProsperous\RZXK.BLL\bin\Debug\RZXK.Bll.pdb
+E:\WiseProsperous\WiseProsperous\RZXK.BLL\bin\Debug\RZXK.Common.dll
+E:\WiseProsperous\WiseProsperous\RZXK.BLL\bin\Debug\RZXK.Dal.dll
+E:\WiseProsperous\WiseProsperous\RZXK.BLL\bin\Debug\RZXK.Model.dll
+E:\WiseProsperous\WiseProsperous\RZXK.BLL\bin\Debug\MySql.Data.dll
+E:\WiseProsperous\WiseProsperous\RZXK.BLL\bin\Debug\RZXK.Common.pdb
+E:\WiseProsperous\WiseProsperous\RZXK.BLL\bin\Debug\RZXK.Dal.pdb
+E:\WiseProsperous\WiseProsperous\RZXK.BLL\bin\Debug\RZXK.Model.pdb
+E:\WiseProsperous\WiseProsperous\RZXK.BLL\obj\Debug\RZXK.Bll.dll
+E:\WiseProsperous\WiseProsperous\RZXK.BLL\obj\Debug\RZXK.Bll.pdb

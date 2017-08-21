@@ -47,3 +47,4 @@ E:\WiseProsperous\WiseProsperous\WiseProsperous\bin\zh-Hans\System.Web.WebPages.
 E:\WiseProsperous\WiseProsperous\WiseProsperous\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 E:\WiseProsperous\WiseProsperous\WiseProsperous\obj\Debug\RZXK.Web.dll
 E:\WiseProsperous\WiseProsperous\WiseProsperous\obj\Debug\RZXK.Web.pdb
+E:\WiseProsperous\WiseProsperous\WiseProsperous\obj\Debug\RZXK.Web.csprojResolveAssemblyReference.cache
