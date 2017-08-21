@@ -1,0 +1,4 @@
+E:\WiseProsperous\WiseProsperous\RZXK.MODEL\bin\Debug\RZXK.Model.dll
+E:\WiseProsperous\WiseProsperous\RZXK.MODEL\bin\Debug\RZXK.Model.pdb
+E:\WiseProsperous\WiseProsperous\RZXK.MODEL\obj\Debug\RZXK.Model.dll
+E:\WiseProsperous\WiseProsperous\RZXK.MODEL\obj\Debug\RZXK.Model.pdb

@@ -1,0 +1,255 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <script src="~/Scripts/index.js"></script>
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script src="~/Scripts/jquery.flexslider-min.js"></script>
+</head>
+<body>
+    <!--头部开始-->
+    <div class="g_top">
+        <div class="content f_pr">
+            <p class="m_zc">
+                欢迎光临本网站！
+            </p>
+            <div class="m_hcon">
+                <q><span>服务热线</span> <b>400-000-0000</b> </q>
+                <h1 class="fl"><a href=""><img src="~/images/logo.jpg" /></a></h1>
+                <p><span>北京睿智-<b>自动化控制技术</b></span>多年专业电源研发、制造、服务经验</p>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="menu f_fw">
+            <div class="content" style="margin-left: 420px;">
+                <ul class="clearfix content">
+                    <li class="oneli"><a href="index.html">网站首页<em>HOME</em></a></li>
+                    <li><a href="">睿智视频<em>WiseVideo</em></a></li>
+                    <li><a href="content.html">产品展示<em>PRODUCT DISPLAY</em></a></li>
+                    <li><a href="newslist.html">关于我们<em>ABOUT US</em></a></li>
+                    <li class="lastli"><a href="">联系我们<em>CONTACT US</em></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!--主内容开始-->
+    <div class="ban_bg">
+        <!--banner start-->
+        <div class="banner">
+            <ul class="slides">
+                <li class="bgitem" style="background:url(/images/banner2.jpg) 50% 0 no-repeat;"></li>
+                <li class="bgitem" style="background:url(/images/banner1.jpg) 50% 0 no-repeat;"></li>
+            </ul>
+        </div>
+        <!-- js调用部分begin -->
+
+        <script>
+            $(function () {
+                $('.banner').flexslider({
+                    directionNav: true,
+                    pauseOnAction: false
+                });
+            });
+        </script>
+        <!-- js调用部分end -->
+        <!--banner end-->
+        <!-- 搜索 -->
+        <div class="g_ser f_fst">
+            <div class="content">
+                <div class="h_sea">
+                    <div class="s_inp fr">
+                        <input type="text" id="seachkeywords" class="inp01" /><input type="image" class="s_ss" src="/images/soso.jpg" onclick="xuanze()" />
+                    </div>
+                    <div class="key fl col">
+                        <b>热门关键词：</b>
+                        <a href="">机器自动分装机</a>
+                        <a href="">Medusa 96S两盘位移液平台</a>
+                        <a href="">Medusa 96 四盘位移液平台</a>
+                        <a href="">两轴移液型核酸提取工作</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--banner-->
+    <!-- 工程案例 -->
+    <div class="g_anli f_fw">
+        <div class="content">
+            <div class="reservation">
+                <h2 class="f_pr">
+                    <span class="f_pa u_more"></span>
+                    <a href="">产品分类展示<em>Product classification display</em></a>
+                </h2>
+                <div class="m_tab1 f_cb">
+                    <ul>
+                        <li><a href=""><p>机器自动分装机</p></a></li>
+                        <li><a href=""><p>Medusa 96S两盘位移液平台</p></a></li>
+                        <li><a href=""><p>Medusa 96 四盘位移液平台</p></a></li>
+                        <li><a href=""><p>两轴移液型核酸提取工作</p></a></li>
+                        <li><a href=""><p>配套附件及耗材</p></a></li>
+                    </ul>
+                </div>
+                <div class="m_anli f_cb">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="~/images/fz.jpg" />
+                                <span><h3>机器自动分装机</h3></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="m_anli f_cb">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="~/images/2p.jpg" width="626" height="355" />
+                                <span>
+                                    <h3>Medusa 96S两盘位移液平台</h3>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="m_anli f_cb">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="~/images/4p.jpg" width="626" height="355" />
+                                <span><h3>Medusa 96 四盘位移液平台</h3></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="m_anli f_cb">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="~/images/ShuangZhou.jpg" />
+                                <span><h3>两轴移液型核酸提取工作</h3></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="m_anli f_cb">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="~/images/pj.jpg" width="626" height="355" />
+                                <span><h3>配套附件及耗材</h3></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <script type="text/jscript">
+
+                var ss = ["Automatic packer", "Two set position", "Four set position", "Two shift extract", "Supplies"];
+                $.each(ss, function (i, object) {
+
+                    $("div.m_tab1").find("a").eq(i).append("<em>" + object + "</em>")
+
+                })
+
+
+                $("div.m_tab1").find("li").mouseover(function () {
+
+                    $("div.reservation").find("div.m_anli").eq($(this).addClass("cur").siblings("li").removeClass().parent('ul').children().index(this)).show().siblings("div.m_anli").hide();
+                }).eq(0).mouseover();
+            </script>
+
+
+
+            <div class="m_kfc f_cb f_fr">
+                <div class="u_ljt f_csp"><a href="javascript:void(0)" id="topproject"></a></div>
+                <div class="u_mid ">
+                    <ul class="u_lst1 f_cb" id="projectlists">
+                        <li><a href=""><img src="/images/pic01.jpg" width="234" height="112" /></a></li>
+                        <li><a href=""><img src="/images/pic02.jpg" width="234" height="112" /></a></li>
+                        <li><a href=""><img src="/images/pic03.jpg" width="234" height="112" /></a></li>
+                    </ul>
+                </div>
+                <div class="u_rjt f_csp"><a href="javascript:void(0)" id="bottomproject"></a></div>
+                <span class="u_btn1 f_cb"><a href=""><img src="/images/btn1.jpg" /></a></span>
+            </div>
+            <script type="text/javascript">
+                $(function () {
+                    var projects = new ScrollPicTop();
+                    projects.scrollContId = "projectlists";
+                    projects.arrLeftId = "topproject";
+                    projects.arrRightId = "bottomproject";
+                    projects.frameWidth = 246;
+                    projects.pageWidth = 123;
+                    projects.speed = 10;
+                    projects.space = 10;
+                    projects.autoPlay = false;
+                    projects.autoPlayTime = 2;
+                    projects.initialize();
+
+                });
+            </script>
+
+            <div class="clear">
+
+            </div>
+            <!--合作客户-->
+
+
+            <div class="m_hz f_fw">
+                <h3>
+                    <span class="u_hztit">合作客户</span>
+                    <em>全国咨询电话<b>400-0000-000</b></em>
+                </h3>
+                <div class="m_hzc">
+                    <ul id="Scroll">
+                        <li><a href=""><img src="/images/khjz01.jpg" width="154" height="102" /></a><span><a href="">合作客户</a></span></li>
+                        <li><a href=""><img src="/images/khjz02.jpg" width="154" height="102" /></a><span><a href="">合作客户</a></span></li>
+                        <li><a href=""><img src="/images/khjz03.jpg" width="154" height="102" /></a><span><a href="">合作客户</a></span></li>
+                        <li><a href=""><img src="/images/khjz04.jpg" width="154" height="102" /></a><span><a href="">合作客户</a></span></li>
+                    </ul>
+                </div>
+
+            </div>
+            <script type="text/javascript">
+                reScrollPic("honor", "Scroll", "", "", 858, 172, null);
+            </script>
+
+            <!--合作客户-->
+        </div>
+    </div>
+    <div class="g_ft f_fw">
+        <div class="content  f_cb">
+            <div class="m_fnav ">
+                <a href="">网站首页</a>
+                <a href="">睿智视频</a>
+                <a href="">产品展示</a>
+                <a href="">关于我们</a>
+                <a href="">联系我们</a>
+            </div>
+            <div class="f_ftcon f_cb f_pr">
+                北京睿智兴科技术有限公司  版权所有<br />
+                传真：400-000-0000<br />
+                服务热线：400-0000-000　　邮 箱：123123123@126.com<br />
+                地址：北京市海淀区清缘西里1号楼B01<br />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

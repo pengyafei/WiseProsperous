@@ -1,0 +1,5 @@
+E:\WiseProsperous\WiseProsperous\RZXK.Common\bin\Debug\RZXK.Common.dll
+E:\WiseProsperous\WiseProsperous\RZXK.Common\bin\Debug\RZXK.Common.pdb
+E:\WiseProsperous\WiseProsperous\RZXK.Common\bin\Debug\MySql.Data.dll
+E:\WiseProsperous\WiseProsperous\RZXK.Common\obj\Debug\RZXK.Common.dll
+E:\WiseProsperous\WiseProsperous\RZXK.Common\obj\Debug\RZXK.Common.pdb
